@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=H1, initial-scale=1.0">
+    {% include "./partials/head.html" ignore missing with context %}
+    <title>Home Page</title>
+    <ul>
+        <li><a href="/advice.html">Advice</a></li>
+        <li><a href="/params.html">Params</a></li>
+        <li><a href="/partials/dependencies.html">dependencies</a></li>
+        <li><a href="partials/head.html">Head</a></li>
+        <li><a href="partials/nav.html">Nav</a></li>
+    </ul>
+</head>
+<body>
+    {% include "./partials/nav.html" ignore missing with context %}
+    <H1>SERVER SIDE LAB 2</H1>
+    {% include "./partials/dependencies.html" ignore missing with context %}
+
+</body>
+</html>
